@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<projects>
-    <project id = "1">
-        <name>Test Project AT_1</name>
-        <isShowAnnouncement>true</isShowAnnouncement>
-        <nullValue>null</nullValue>
-    </project>
-    <project id = "2">
-    </project>
-</projects>
+<project id="243">
+    <name>VBilevich</name>
+    <announcement>This is the description for the project</announcement>
+    <show_announcement>true</show_announcement>
+    <is_copleted>false</is_copleted>
+    <completed_on>null</completed_on>
+    <suite_mode>3</suite_mode>
+    <url>https://aqa04onl01.testrail.io/index.php?/projects/overview/243</url>
+</project>

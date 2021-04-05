@@ -1,18 +1,10 @@
-[
-  {
-    "name": "Test Project AT_1",
-    "id": 1,
-    "isShowAnnouncement": true,
-    "nullValue": null
-  },
-  {
-    "name": "Test Project AT_1",
-    "id": 1,
-    "isShowAnnouncement": true,
-    "nullValue": null,
-    "array": [
-      {"sd": 1},
-      {"sd": 2}
-    ]
-  }
-]
+{
+  "id": 243,
+  "name": "VBilevich",
+  "announcement": "This is the description for the project",
+  "show_announcement": true,
+  "is_completed": false,
+  "completed_on": null,
+  "suite_mode": 3,
+  "url": "https://aqa04onl01.testrail.io/index.php?/projects/overview/243"
+}
