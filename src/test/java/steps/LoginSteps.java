@@ -2,6 +2,7 @@ package steps;
 
 import baseEntities.BaseStep;
 import core.BrowsersService;
+import pages.AddProjectPage;
 import pages.DashboardPage;
 import pages.LoginPage;
 
@@ -28,4 +29,13 @@ public class LoginSteps extends BaseStep {
 
         return new LoginPage(browsersService, false);
     }
+
+    public AddProjectPage loginWithCorrectCredentialsOnAddProjectPage(String email, String psw){
+
+        DashboardPage dashboardPage = this.loginWithCorrectCredentials(email, psw);
+        dashboardPage.getSidebarProjectsAddButton().click();
+
+        return new AddProjectPage(browsersService, false);
+    }
+
 }

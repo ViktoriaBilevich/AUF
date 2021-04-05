@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project id="243">
+    <name>VBilevich</name>
+    <announcement>This is the description for the project</announcement>
+    <show_announcement>true</show_announcement>
+    <is_copleted>false</is_copleted>
+    <completed_on>null</completed_on>
+    <suite_mode>3</suite_mode>
+    <url>https://aqa04onl01.testrail.io/index.php?/projects/overview/243</url>
+</project>
