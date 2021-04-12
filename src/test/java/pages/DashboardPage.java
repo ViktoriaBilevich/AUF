@@ -28,5 +28,7 @@ public class DashboardPage extends BasePage {
         }
     }
 
-    public WebElement getSidebarProjectsAddButton(){return driver.findElement(sidebarProjectsAddButtonBy);}
+    public WebElement getSidebarProjectsAddButton(){
+        return driver.findElement(sidebarProjectsAddButtonBy);
+    }
 }
